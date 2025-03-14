@@ -8,9 +8,9 @@ import Data.List( minimumBy, zipWith3 )
 {-
 falsifyBox :: StdGen               -- random seed
            -> ([Double] -> Double) -- function to falsify f(xs)=y
-           -> [(Double,Double)]    -- specify intervals in which to search
-           -> [([Double],Double)]  -- a list of attempts (xs,y)
--
+           -> [(Double,Double)]    -- specify for each x what interval to search
+           -> [([Double],Double)]  -- a lazy list of attempts (xs,y)
+
 The aim for the above function is to find xs such that f(xs)=y<=0.
 }
 
