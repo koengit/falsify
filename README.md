@@ -20,7 +20,7 @@ Example use:
 
 The aim for "falsifyBox f" is to find xs::[Double] such that f(xs)=y<=0.
 
-The agorithm uses a Bayesian optimization inspired method for finding
+The algorithm uses a Bayesian optimization inspired method for finding
 g(x)=y<=0 for a 1-dimensional function g. This particular method
 uses line segments and slope differences to model functions.
 
