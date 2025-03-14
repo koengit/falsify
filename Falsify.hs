@@ -1,4 +1,4 @@
-module Falsify( falsifyBox ) where
+module Falsify( falsifyBox, takeUntil ) where
 
 import System.Random
 import Data.Ord( comparing )
