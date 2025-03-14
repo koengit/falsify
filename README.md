@@ -1,6 +1,6 @@
 # falsify
 
-> falsifyBox :: StdGen               -- random seed
+> falsifyBox :: StdGen              -- random seed
 >           -> ([Double] -> Double) -- function to falsify f(xs)=y
 >           -> [(Double,Double)]    -- specify for each x what interval to search
 >           -> [([Double],Double)]  -- a lazy list of attempts (xs,y)

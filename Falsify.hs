@@ -12,7 +12,7 @@ falsifyBox :: StdGen               -- random seed
            -> [([Double],Double)]  -- a lazy list of attempts (xs,y)
 
 The aim for the above function is to find xs such that f(xs)=y<=0.
-}
+-}
 
 -------------------------------------------------------------------------
 -- segments
